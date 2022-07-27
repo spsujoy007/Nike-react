@@ -13,10 +13,182 @@
     <!-- bootstrap cdn link  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+
+    <header class="mainHeader pb-3 mb-5">
+        <div class="container">
+            <!-- navigation menu start  -->
+            <nav class="navbar navbar-expand-lg p-4">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="icons/Logo.png" alt="company logo"
+                            style="width:300px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto text-bold">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><strong>Product</strong> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><strong>Contact us</strong> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><strong>About us</strong> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navigation menu end  -->
+
+            <!-- header carousel images start  -->
+            <section class="my-2">
+                <div id="carouselExampleControls" class="carousel slide py-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <!-- single carousle img  -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="images/headshoes.png" alt="" class="img-fluid w-75">
+                                </div>
+                                <div class="col-md-5 d-flex align-items-center">
+                                    <div>
+                                        <h1 class="d-flex flex-column">
+                                            <span style="color: #FA804C; font-weight: 700;">Nike React </span>
+                                            <span style="color: #363958;font-weight: 700;">Infinity Run 2 </span>
+                                        </h1>
+                                        <p class="text-secondary ">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit.
+                                            Est dolores nulla sapiente cupiditate hic recusandae.</p>
+
+                                        <button class="btn rounded mybtn px-3 py-2"><i
+                                                class="fa-solid fa-cart-shopping pe-2"></i> Buy now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single carousle img  -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="images/headshoes.png" alt="" class="img-fluid w-75 w-sm-100">
+                                </div>
+                                <div class="col-md-5 d-flex align-items-center">
+                                    <div>
+                                        <h1 class="d-flex flex-column">
+                                            <span style="color: #FA804C; font-weight: 700;">Sneakers Basketball shoe
+                                            </span>
+                                            <span style="color: #363958;font-weight: 700;">Infinity Run 2 </span>
+                                        </h1>
+                                        <p class="text-secondary ">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit.
+                                            Est dolores nulla sapiente cupiditate hic recusandae.</p>
+
+                                        <button class="btn rounded mybtn px-3 py-2"><i
+                                                class="fa-solid fa-cart-shopping pe-2"></i> Buy now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single carousle img  -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="images/headshoes.png" alt="" class="img-fluid w-75">
+                                </div>
+                                <div class="col-md-5 d-flex align-items-center">
+                                    <div>
+                                        <h1 class="d-flex flex-column">
+                                            <span style="color: #FA804C; font-weight: 700;">Sneakers Skate Shoe </span>
+                                            <span style="color: #363958;font-weight: 700;">Infinity Run 2 </span>
+                                        </h1>
+                                        <p class="text-secondary ">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                            elit.
+                                            Est dolores nulla sapiente cupiditate hic recusandae.</p>
+
+                                        <button class="btn rounded mybtn px-3 py-2"><i
+                                                class="fa-solid fa-cart-shopping pe-2"></i> Buy now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <!-- header carousel images end  -->
+        </div>
+    </header>
+    <!-- header end from here  -->
+
+
+
+    <!--=================================== main content from here ===================================== -->
+    <main class="container">
+        <!-- casual shoes list  -->
+        <section class="casual-shoes my-5" id="product">
+            <div class="shoes">
+                <h2 class="pb-3">CASUAL SHOES</h1>
+                    <!-- all product  -->
+                    <div>
+
+                        <div class="card-group ">
+                            <div class="row gx-3">
+                                <!-- signle product  -->
+                                <div class="col-md-4">
+                                    <div class="card border-0 p-3 rounded-4 shadow-lg ">
+                                        <div class="carimg rounded-4 d-flex justify-content-center ">
+                                            <img src="images/image 5.png" class="img-fluid card-img-top w-75"
+                                                alt="Nike">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nike Shoe</h5>
+                                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing. Lorem
+                                                ipsum dolor sit amet.
+                                            </p>
+                                            <!-- button and price div  -->
+                                            <div>
+
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="bg-transparent border-0 d-flex justify-content-between align-items-center">
+                                            <h2>$234</h2>
+                                            <button class="btn rounded mybtn px-3 py-2"><i
+                                                    class="fa-solid fa-cart-shopping pe-2"></i> Buy now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+            </div>
+        </section>
+    </main>
 
 
 
@@ -24,6 +196,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <!-- font-awesome kit for logos  -->
+    <script src="https://kit.fontawesome.com/5d73ebcce2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

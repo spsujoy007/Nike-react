@@ -1,0 +1,42 @@
+/* google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --bg-color: #FFF9F4;
+    --btn-color: #3A4ADC;
+    --text-orange: #FA804C;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainHeader {
+    background: var(--bg-color);
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.mybtn {
+    background-color: var(--btn-color);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.mybtn:hover {
+    background-color: white;
+}
+
+.carimg {
+    background-color: #F1F1F1;
+}
+
+h2 {
+    color: var(--text-orange);
+    font-weight: bold;
+}
