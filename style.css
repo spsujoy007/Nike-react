@@ -36,7 +36,7 @@ h1 {
     background-color: #F1F1F1;
 }
 
-h2 {
+.price {
     color: var(--text-orange);
     font-weight: bold;
 }
