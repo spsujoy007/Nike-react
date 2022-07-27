@@ -40,3 +40,8 @@ h1 {
     color: var(--text-orange);
     font-weight: bold;
 }
+
+.littleicon {
+    width: 80px;
+    height: 80px;
+}
