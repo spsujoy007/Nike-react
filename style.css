@@ -20,6 +20,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    color: #363958;
+}
+
 .mybtn {
     background-color: var(--btn-color);
     color: white;
@@ -44,4 +48,10 @@ h1 {
 .littleicon {
     width: 80px;
     height: 80px;
+}
+
+footer {
+    background-color: rgb(44, 44, 44);
+    color: rgb(139, 139, 139);
+    text-transform: uppercase;
 }
